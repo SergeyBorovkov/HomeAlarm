@@ -734,6 +734,7 @@ GameObject:
   - component: {fileID: 306807958}
   - component: {fileID: 306807959}
   - component: {fileID: 306807960}
+  - component: {fileID: 306807961}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -948,6 +949,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6487644, y: 3.4338932}
   m_EdgeRadius: 0
+--- !u!114 &306807961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306807955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9fc802bfba82c4d93fc32130d6522c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &359897337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4422272a9e13c84895bb08b7ec772e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hit:
+  _thiefDoorBreak:
     m_PersistentCalls:
       m_Calls: []
 --- !u!61 &359897342
