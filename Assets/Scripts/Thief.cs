@@ -5,13 +5,13 @@ using UnityEngine.Events;
 
 public class Thief : MonoBehaviour
 {
-    [SerializeField] private UnityEvent _hit;
+    [SerializeField] private UnityEvent _thiefDoorBreak;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.TryGetComponent(out Door door))
-        {            
-            _hit?.Invoke();
+        {
+            _thiefDoorBreak?.Invoke();
         }
     }
 }
