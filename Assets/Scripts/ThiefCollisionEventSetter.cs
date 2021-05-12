@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class OnCollisionWithThief : MonoBehaviour
+public class ThiefCollisionEventSetter : MonoBehaviour
 {
     [SerializeField] private UnityEvent _reached = new UnityEvent();
 
